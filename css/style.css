@@ -1,0 +1,120 @@
+#logo {
+    float: left;
+}
+
+#logoText {
+    float: left;
+}
+
+#first-h1 {
+    font-family: 'Yellowtail', cursive;
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#bestFood {
+    font-size: 8px;
+    line-height: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#id {
+    float: left;
+}
+
+#social {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    margin-bottom: 250px;
+}
+
+img:nth-last-child(2) {
+    margin-left: 10px;
+  }
+/* #hrRow {
+    background-repeat: repeat-x;
+    background-image: "img.hr-img.png";
+    width: 100%;
+} */
+
+hrRow {
+    margin-top: 50px;
+    max-width: 960px;
+}
+
+#second-h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#date {
+    font-size: 8px;
+    line-height: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#chocoPizza {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe {
+    text-indent: 2em;
+}
+
+#titleDate {
+    float: left;
+}
+
+#printSection {
+    float: right;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+#printer {
+    float: right;
+}
+#print {
+    float: right;
+    font-size: 8px;
+    margin-left: 2px;
+    line-height: 0px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+.left {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: left;
+}
+
+.right {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: left;
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style-type: none;
+}
