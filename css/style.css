@@ -1,3 +1,20 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}width:150px;
+height:150px;
+text-align: center;
+vertical-align: middle;
+line-height: 150px; 
+  margin:0 10px 10px 0;
+  padding:10px 21px;
+  text-transform:uppercase;
+  font-family:'Arial';
+
+footer {
+    margin-top: 25px;
+}
+
 #logo {
     float: left;
 }
@@ -25,20 +42,12 @@
 }
 
 #social {
-    position: absolute;
-    top: 15px;
-    right: 5px;
-    margin-bottom: 250px;
+    float: right;
 }
 
 img:nth-last-child(2) {
     margin-left: 10px;
   }
-/* #hrRow {
-    background-repeat: repeat-x;
-    background-image: "img.hr-img.png";
-    width: 100%;
-} */
 
 hrRow {
     margin-top: 50px;
@@ -94,20 +103,21 @@ hrRow {
   }
 
 .left {
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
     position: absolute;
     left: 20px;
-    top: 20px;
+    top: 0px;
     text-align: left;
 }
 
 .right {
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
+    float: right;
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 0px;
     text-align: left;
 }
 
@@ -117,4 +127,41 @@ hrRow {
 
 ul {
     list-style-type: none;
+}
+
+#footDiv {
+
+}
+
+#vanessa {
+    float: left;
+    margin-right: 20px;
+}
+
+#share {
+    float: right;
+}
+
+#vanSt {
+    line-height: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#vanInfo {
+    line-height: 15px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+button {
+    float: right;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+	/* margin:0 10px 10px 0;*/
+	padding:10px 21px;
+	text-transform:uppercase;
+	font-family:'Arial';
 }
